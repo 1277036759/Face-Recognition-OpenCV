@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19e409e8-09af-4170-b499-0131022bd875" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Adam brody/feature.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Adam brody/filelist_LBP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Adam brody/info.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Michelle obama/feature.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Michelle obama/filelist_LBP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Michelle obama/info.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Steve jobs/feature.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Steve jobs/filelist_LBP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Celebrities/Steve jobs/info.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset_face_from_images.py" afterPath="$PROJECT_DIR$/dataset_face_from_images.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detect_face.py" afterPath="$PROJECT_DIR$/detect_face.py" />
-    </list>
+    <list default="true" id="19e409e8-09af-4170-b499-0131022bd875" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +12,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Face_Recognition$dataset_face.coverage" NAME="dataset_face Coverage Results" MODIFIED="1512754793826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Face_Recognition$detect_face.coverage" NAME="detect_face Coverage Results" MODIFIED="1512757076399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Face_Recognition$train_face.coverage" NAME="train_face Coverage Results" MODIFIED="1512756670308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Face_Recognition$train_face.coverage" NAME="train_face Coverage Results" MODIFIED="1512757196532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Face_Recognition$dataset_face_from_images.coverage" NAME="dataset_face_from_images Coverage Results" MODIFIED="1512756649362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -32,8 +20,8 @@
       <file leaf-file-name="train_face.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_face.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -171,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.detect_face">
+  <component name="RunManager" selected="Python.train_face">
     <configuration name="dataset_face" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,8 +240,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.detect_face" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train_face" />
+        <item index="0" class="java.lang.String" itemvalue="Python.train_face" />
+        <item index="1" class="java.lang.String" itemvalue="Python.detect_face" />
         <item index="2" class="java.lang.String" itemvalue="Python.dataset_face_from_images" />
         <item index="3" class="java.lang.String" itemvalue="Python.dataset_face" />
       </list>
@@ -274,7 +262,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="0" width="839" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2567394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -368,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/train_face.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
