@@ -3,7 +3,7 @@ import os
 
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-face_id = 2
+face_id = 5
 
 def extract_face(path):
     imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
@@ -22,7 +22,6 @@ def extract_face(path):
             cv2.rectangle(image_frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
             count += 1
             cv2.imwrite("Training Faces/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y + h, x:x + w])
-            cv2.imshow('frame', image_frame)
 
-extract_face("Celebrities/Bill Gates")
+extract_face("Celebrities/Steve jobs")
 

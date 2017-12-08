@@ -31,18 +31,26 @@ while True:
         name = "Unknown"
 
         if(Id[0] == 1):
-            name = "Vasu"
+            name = "Aaron Carter"
+        elif(Id[0] == 2):
+            name = "Adam Brody"
+        elif (Id[0] == 3):
+            name = "Bill Gates"
+        elif (Id[0] == 4):
+            name = "Michelle Obama"
+        elif (Id[0] == 5):
+            name = "Steve Jobs"
         else:
             name = "Unknown"
 
         print(Id)
 
-        confidence = str(Id[1])[0:2] + '%'
+        confidence = str(Id[1])[0:str(Id[1]).index(".")] + '%'
 
-        cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
-        cv2.putText(im, str(name) + " " + confidence, (x,y-40), font, 1, (255,255,255), 1)
+        #cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
+        cv2.putText(im, str(name) + " " + confidence, (x-20,y+h+45), font, 0.6, (0,0,255), 2)
 
-    cv2.imshow('im',im)
+    cv2.imshow('Face Recognition',im)
 
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
