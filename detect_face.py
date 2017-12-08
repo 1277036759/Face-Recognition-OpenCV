@@ -33,8 +33,9 @@ while True:
         if(Id[0] == 1):
             name = "Vasu"
         else:
-            print(Id)
             name = "Unknown"
+
+        print(Id)
 
         confidence = str(Id[1])[0:2] + '%'
 
