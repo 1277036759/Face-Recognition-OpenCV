@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e409e8-09af-4170-b499-0131022bd875" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detect_face.py" afterPath="$PROJECT_DIR$/detect_face.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset_face.py" afterPath="$PROJECT_DIR$/dataset_face.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detect_face.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detect_face.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detect_face.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset_face.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dataset_face.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataset_face.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="424">
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -71,9 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dataset_face.py" />
         <option value="$PROJECT_DIR$/train_face.py" />
         <option value="$PROJECT_DIR$/detect_face.py" />
+        <option value="$PROJECT_DIR$/dataset_face.py" />
       </list>
     </option>
   </component>
@@ -279,18 +279,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset_face.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Face-Recognition-master/face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="72" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detect_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -305,10 +305,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detect_face.py">
+    <entry file="file://$PROJECT_DIR$/dataset_face.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="424">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>
