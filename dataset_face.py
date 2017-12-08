@@ -4,7 +4,7 @@ vid_cam = cv2.VideoCapture(0)
 
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-face_id = 1
+face_id = 2
 
 count = 0
 

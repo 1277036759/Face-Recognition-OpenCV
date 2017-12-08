@@ -36,8 +36,10 @@ while True:
             print(Id)
             name = "Unknown"
 
+        confidence = str(Id[1])[0:2] + '%'
+
         cv2.rectangle(im, (x-22,y-90), (x+w+22, y-22), (0,255,0), -1)
-        cv2.putText(im, str(name), (x,y-40), font, 1, (255,255,255), 1)
+        cv2.putText(im, str(name) + " " + confidence, (x,y-40), font, 1, (255,255,255), 1)
 
     cv2.imshow('im',im)
 
